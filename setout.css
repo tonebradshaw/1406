@@ -1,0 +1,172 @@
+.address { /* indent the address details */
+	margin-left: 50px;
+	margin-top: 0px;
+	font-size: 120%
+}
+.fax { /* line up the fax number with the phone number */
+	padding-left: 25px;
+}
+h1 { /* colour h1 */
+	color: #000000;
+	text-shadow: 2px 1px orange;
+}
+#navigation  li{ /* set out the navigation links */
+	background-color: yellow;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: 5px;
+	border: solid 2px purple;
+	margin-right: 10px;
+	border-radius: 10px;
+	list-style-type: none;
+	display: inline-block;
+}
+h2 { /* colour h2 */
+	text-color: blue;
+}
+body { /* set out look of the page background */
+	background-color: black;
+	background-image: url(./images/composite1.jpg);
+	background-size: 850px;
+	color: #55ffbb;
+	min-width:950px;
+	background-repeat: no-repeat;
+	background-position: 370px 200px;
+}
+.highlight{ /* set out highlighted text */
+	color: #afeeee;
+}
+.indent { /* indent text */
+	margin-left: 30px;
+	font-size: 120%;
+	width: 35%;
+}
+a:link { /* set link colour */
+	color: green;
+}
+#navigation a:visited{ /* make navigation visited link not change colour */
+	color: green;
+}
+#navigation a:hover{ /* make navigation link hover red */
+	color: red;
+}
+a:hover{ /* make link hover red */
+	color: red;
+}
+#firstcolumn ul { /* position first column in price data */
+	position: absolute;
+	left: 0px;
+	top: 150px;
+	width: 200px;
+	margin-left: 50px;
+	
+}
+#secondcolumn  ul { /* position second column in price data */
+	position: absolute;
+	left: 250px;
+	top: 150px;
+	width: 50px;
+	margin-left: 0px;
+}
+#thirdcolumn  ul { /* position 3rd column in price data */
+	position: absolute;
+	left: 300px;
+	top: 150px;
+	width: 70px;
+	margin-left: 0px;
+}
+#firstcolumn ul,  #secondcolumn  ul, #thirdcolumn  ul { /* set out ul common table display */
+	background-color: yellow;
+	list-style-type: none;
+	padding-left: 0px;
+	border: solid 1px blue;
+	color: black;
+}
+#firstcolumn li, #secondcolumn li, #thirdcolumn li{ /* set out li table display */
+	padding-left: 3px;
+	border: solid 1px blue;
+}
+.table1_heading { /* set out table1 heading display */
+	padding-left: 50px;
+	font-size: 150%;
+	text-shadow: 2px 1px orange;
+}
+.table2_heading { /* set out table2 heading display */
+	padding-left: 0px;
+	font-size: 150%;
+	text-shadow: 2px 1px orange;
+}
+.table3_heading { /* set out table3 heading display */
+	padding-left: 5px;
+	font-size: 150%;
+	text-shadow: 2px 1px orange;
+}
+#button { /* position prices back button */
+	position: absolute;
+	left: 30px;
+	top: 70px;
+}
+#button a:hover{ /* make hover on prices button same as background */
+	background-color: black;
+}
+#heading { 
+	padding-top: 15px;
+	font-size: 180%;
+	color: black;
+	text-shadow: 2px 1px orange;
+}
+.lowlight {
+	font-size: 80%;
+	color: white;
+	text-shadow: none;
+	margin-left: 20px;
+}
+.underline{
+	border-bottom: solid 4px #55ffbb;
+	color: yellow;
+	text-shadow: none;
+	margin-left: 20px;
+}
+.description  {
+	margin-left: 20px;
+	min-width: 450px;
+	width: 50%;
+}
+.light{
+	color: yellow;
+	margin-left: 100px;
+	font-size: 110%;
+	text-shadow: none;
+	background-color: black;
+	border: solid 2px purple;
+	margin-top: 40px;
+	width: 55%;
+	min-width: 790px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#scroll{
+	height: 172px;
+	font-size: 120%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	width: 500px;
+}
+#footer{
+	font-size: 130%;
+	margin-top: 90px;
+}
+.position{
+	position: absolute;
+	left: 150px;
+	top: 230px;
+	font-size: 200%;
+}
+.end{
+	padding-top: 20px;
+	font-size: 140%;
+	color: yellow;
+}
+.lead{
+	color: yellow;
+}

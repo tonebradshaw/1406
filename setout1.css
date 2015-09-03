@@ -1,0 +1,84 @@
+
+
+h1 {
+	color: #000000;
+	text-shadow: 2px 1px orange;
+}
+#navigation  li{
+	background-color: yellow;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: 5px;
+	border: solid 2px purple;
+	margin-right: 10px;
+	border-radius: 10px;
+	list-style-type: none;
+	display: inline-block;
+}
+
+body {
+	background-color: black;
+	background-image: url(./images/party.jpg);
+	background-size: 600px;
+	color: #55ffbb;
+	min-width:950px;
+	background-repeat: no-repeat;
+	background-position: 550px 150px;
+}
+
+.indent {
+	margin-left: 30px;
+	width: 35%;
+	min-width: 450px;
+	font-size: 120%;
+}
+#navigation a:visited{
+	color: green;
+}
+#navigation a:hover{
+	color: red;
+}
+a:link{
+	color: green;
+}
+a:hover{
+	color: red;
+}
+#heading {
+	padding-top: 15px;
+	font-size: 180%;
+	color: black;
+	text-shadow: 2px 1px orange;
+}
+.lowlight {
+	font-size: 80%;
+	color: white;
+	text-shadow: none;
+	margin-left: 20px;
+}
+.underline{
+	border-bottom: solid 4px #55ffbb;
+	color: yellow;
+	text-shadow: none;
+	margin-left: 20px;
+}
+.description  {
+	margin-left: 30px;
+	width: 35%;
+	min-width: 450px;
+	color: #f238d6;
+	font-size: 120%;
+}
+.highlight{
+	color: yellow;
+	margin-left: 100px;
+	font-size: 110%;
+	text-shadow: none;
+	background-color: black;
+	border: solid 2px purple;
+	margin-top: 40px;
+	width: 55%;
+	min-width: 790px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
